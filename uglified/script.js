@@ -1,0 +1,1 @@
+$(document).ready(function(){function i(){var i=$(window).height();$(".container").css("height",i)}i(),$(window).resize(function(){i()}),$(".lister").on("click",function(){$(".list").toggleClass("slided"),$(".sheet_main").toggleClass("sheet_main_full")})});
